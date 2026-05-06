@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Gwanulaga | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <a href="#home" class="nav-logo">BRYAN.DEV</a>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#parcours" class="nav-link">Career</a></li>
+            <li><a href="#Skills" class="nav-link">Skills</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-controls">
+            <!-- Theme Toggle -->
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <span class="toggle-icon sun">☀️</span>
+                <span class="toggle-icon moon">🌙</span>
+            </button>
+
+            <!-- Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Dropdown Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#parcours" class="mobile-link">Career</a></li>
+            <li><a href="#Skills" class="mobile-link">Skills</a></li>
+            <li><a href="#blog" class="mobile-link">Blog</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="hero-label">— Cybersecurity Portfolio</p>
+            <h2 class="hero-title">Ready to<br><span class="accent">Innovate</span></h2>
+            <h3 class="hero-name">Hi, I'm Bryan Gwanulaga</h3>
+            <p class="hero-sub">Aspiring Cybersecurity Engineer · IT Enthusiast · Frontend Dev</p>
+            <p class="hero-desc">I build secure and innovative digital solutions.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn-primary">Get in Touch</a>
+                <a href="#blog" class="btn-secondary">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-image-wrap">
+            <img src="./bryan.jpeg" alt="Bryan Gwanulaga" class="hero-img">
+            <div class="hero-ring"></div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-tag">01 / About</span>
+            <h2>About Me</h2>
+        </div>
+        <p class="about-text">
+            I'm a dedicated computer enthusiast with a passion for cybersecurity.
+            My goal is to protect systems, uncover vulnerabilities, and build secure infrastructures.
+            I thrive on solving complex problems and continuously learning in the ever-evolving tech world.
+        </p>
+
+        <h3 class="sub-heading">My Expertise</h3>
+        <div class="expertise">
+            <div class="expert-card">
+                <div class="card-icon">🔐</div>
+                <h4>Security Analysis</h4>
+                <p>Uncovering vulnerabilities and building secure systems.</p>
+            </div>
+            <div class="expert-card">
+                <div class="card-icon">🤝</div>
+                <h4>Team Work</h4>
+                <p>Collaborating effectively on technical projects.</p>
+            </div>
+            <div class="expert-card">
+                <div class="card-icon">🔍</div>
+                <h4>System Analysis</h4>
+                <p>Analyzing systems with attention to detail.</p>
+            </div>
+            <div class="expert-card">
+                <div class="card-icon">📚</div>
+                <h4>Continuous Learning</h4>
+                <p>Always improving in cybersecurity and tech.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="parcours">
+        <div class="section-header">
+            <span class="section-tag">02 / Education</span>
+            <h2>Formation</h2>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dates</th>
+                        <th>School</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Dates">2023 – Present</td>
+                        <td data-label="School">Université de Yaoundé 1</td>
+                        <td data-label="Degree">Licence Informatique</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Dates">2021 – 2023</td>
+                        <td data-label="School">Franky Academic Complex</td>
+                        <td data-label="Degree">GCE A/L</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Dates">2016 – 2021</td>
+                        <td data-label="School">Franky Academic Complex</td>
+                        <td data-label="Degree">GCE O/L</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+        <div class="section-header">
+            <span class="section-tag">03 / Skills</span>
+            <h2>Skills</h2>
+        </div>
+        <div class="skills">
+            <div class="skill" data-level="90">
+                <span class="skill-name">C / C++</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            </div>
+            <div class="skill" data-level="85">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            </div>
+            <div class="skill" data-level="75">
+                <span class="skill-name">Bash</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+            </div>
+            <div class="skill" data-level="80">
+                <span class="skill-name">HTML / CSS / JS</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+            </div>
+            <div class="skill" data-level="70">
+                <span class="skill-name">Java</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div>
+            </div>
+            <div class="skill" data-level="88">
+                <span class="skill-name">Linux</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div>
+            </div>
+            <div class="skill" data-level="75">
+                <span class="skill-name">Windows</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div>
+            </div>
+            <div class="skill" data-level="72">
+                <span class="skill-name">Networking</span>
+                <div class="skill-bar"><div class="skill-fill" style="--pct:72%"></div></div>
+            </div>
+        </div>
+
+        <h3 class="sub-heading" style="margin-top:50px">Certifications</h3>
+        <div class="certifications">
+            <a href="https://cs50.harvard.edu/certificates/80e37260-553d-433e-ae10-8a4695d4125b" target="_blank" class="cert-card">
+                <span class="cert-badge">🎓</span>
+                <span>CS50 Introduction to Computer Science</span>
+                <span class="cert-arrow">↗</span>
+            </a>
+            <a href="https://www.credly.com/badges/87e55c7d-fc30-4dc7-82f3-5528177001c6" target="_blank" class="cert-card">
+                <span class="cert-badge">🛡️</span>
+                <span>Cisco Introduction to Cybersecurity</span>
+                <span class="cert-arrow">↗</span>
+            </a>
+            <a href="https://cs50.harvard.edu/certificates/b3f756cd-e7bf-4e09-aea3-1794aad5580c" target="_blank" class="cert-card">
+                <span class="cert-badge">🔒</span>
+                <span>CS50 Cybersecurity</span>
+                <span class="cert-arrow">↗</span>
+            </a>
+            <a href="https://cs50.harvard.edu/certificates/718a56c4-9785-46c5-b5b0-a84b9ef58fe5" target="_blank" class="cert-card">
+                <span class="cert-badge">🗃️</span>
+                <span>CS50 Introduction to SQL</span>
+                <span class="cert-arrow">↗</span>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="blog">
+        <div class="section-header">
+            <span class="section-tag">04 / Projects</span>
+            <h2>Projects &amp; Blog</h2>
+        </div>
+        <div class="projects">
+            <div class="project">
+                <div class="project-tag">C</div>
+                <h3>Club Management System</h3>
+                <p>Simple app used to efficiently manage day-to-day activities of a club.</p>
+                <a href="https://github.com/code50/126393477/tree/be3ba9bcfd58c36c866fc61cee6bdbb38eeb2f9f/project" target="_blank" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project">
+                <div class="project-tag">Python</div>
+                <h3>Transportation Management System</h3>
+                <p>Managing car pool points, routes and itineraries.</p>
+                <a href="https://github.com/code50/126393477/tree/be3ba9bcfd58c36c866fc61cee6bdbb38eeb2f9f/project_python" target="_blank" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project">
+                <div class="project-tag">SQL</div>
+                <h3>Fitness Tracker</h3>
+                <p>SQL database to process and record workout sessions.</p>
+                <a href="https://github.com/me50/ruiz00/tree/cs50/problems/2024/sql/project" target="_blank" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project">
+                <div class="project-tag">HTB</div>
+                <h3>Hack The Box Writeups</h3>
+                <p>Basics for pentesting and Hack The Box machine challenges.</p>
+                <a href="https://ruiz00.github.io/HTB-writeups/" target="_blank" class="project-link">View Project ↗</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="section-header">
+            <span class="section-tag">05 / Contact</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-wrap">
+            <form id="contact-form" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" placeholder="Bryan" required>
+                        <span class="error-msg" id="fname-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" placeholder="Gwanulaga" required>
+                        <span class="error-msg" id="lname-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <span class="error-msg" id="email-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                    <span class="error-msg" id="message-error"></span>
+                </div>
+                <button type="submit" class="btn-primary" id="submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-spinner" id="btn-spinner" hidden>⏳</span>
+                </button>
+                <div class="form-success" id="form-success" hidden>
+                    ✅ Message sent! I'll get back to you soon.
+                </div>
+            </form>
+
+            <div class="socials-wrap">
+                <h3>Find me on</h3>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/gwanulaga-bryan" target="_blank" class="social-btn">
+                        <span class="social-icon">in</span> LinkedIn
+                    </a>
+                    <a href="https://github.com/ruiz00" target="_blank" class="social-btn">
+                        <span class="social-icon">⌥</span> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/ruiz_bryaan" target="_blank" class="social-btn">
+                        <span class="social-icon">◎</span> Instagram
+                    </a>
+                    <a href="https://www.tiktok.com/@zero30dark" target="_blank" class="social-btn">
+                        <span class="social-icon">♪</span> TikTok
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Bryan Gwanulaga. All rights reserved.</p>
+        <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
